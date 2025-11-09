@@ -1,0 +1,34 @@
+body,html{
+    height:100%;
+    margin:0;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    height:100vh;
+}
+.box{
+    background:#2196f3;
+    color:#fff;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.box1{
+    width:100px;
+    height:100px;
+}
+.box2{
+    width:20vw;
+    height:20vh;
+}
+.box3{
+    width:10em;
+    min-height:80px;
+    max-width:150px;
+    overflow:auto;
+    background:#4caf50;
+}

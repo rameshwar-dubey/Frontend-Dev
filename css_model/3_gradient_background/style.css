@@ -1,0 +1,31 @@
+body,html{
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:white;
+    font-family:sans-serif
+}
+header,footer{
+    background:#222;
+    padding:20px;
+    position:fixed;
+    width:100%;
+    left:0;
+    color:#fff
+}
+header{
+    top:0
+}
+footer{
+    bottom:0
+}
+.linear{
+    background:linear-gradient(45deg,#ff7e5f,#feb47b);
+    height:50vh;
+    margin-top:60px
+}
+.radial{
+    background:radial-gradient(circle,#43cea2,#185a9d);
+    height:50vh;
+    /* background-attachment:fixed; */
+}

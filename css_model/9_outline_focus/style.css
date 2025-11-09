@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f0f0f0
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:250px
+}
+input,textarea,button{
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #ccc
+}
+input:focus,textarea:focus{
+    outline:2px solid #2196f3;
+    outline-offset:3px
+}
