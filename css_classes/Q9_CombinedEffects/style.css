@@ -1,0 +1,5 @@
+body{font-family:Poppins,sans-serif;margin:0;background:#fafafa;text-align:center;}
+header{background:linear-gradient(90deg,#ff512f,#dd2476);color:white;padding:1rem;}
+.effects{display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap;height:80vh;}
+.effect-btn{padding:15px 30px;border:none;border-radius:8px;font-size:16px;background:#ff512f;color:white;cursor:pointer;transition:all .3s ease;box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+.effect-btn:hover{transform:scale(1.1);background:#dd2476;box-shadow:0 6px 20px rgba(0,0,0,0.2);}
