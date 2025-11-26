@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JS Tasks - Solutions</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>JS Tasks — Solutions (All in one page)</h1>
+  <p>Each task implemented below. JavaScript for each task is in a separate file (task1.js ... task9.js).</p>
+
+  <div class="section" id="task1">
+    <h2>1. Dynamic Product List Manager</h2>
+    <div class="row">
+      <input id="pname" placeholder="Product name"><button id="addProduct">Add</button>
+    </div>
+    <ul id="productList"></ul>
+    <small>Click Edit to toggle inline edit. Click outside auto-saves.</small>
+  </div>
+
+  <div class="section" id="task2">
+    <h2>2. Live Character Counter</h2>
+    <textarea id="chInput" rows="4" cols="50" maxlength="200" placeholder="Type (max 100)"></textarea>
+    <div>Remaining: <span id="remaining" class="counter">100</span></div>
+    <button id="resetChar">Reset</button>
+  </div>
+
+  <div class="section" id="task3">
+    <h2>3. Multi-Step Form</h2>
+    <form id="multiForm" novalidate>
+      <div id="step1" class="step"><label>Name: <input id="name" required></label></div>
+      <div id="step2" class="step hidden"><label>Email: <input id="email" required type="email"></label></div>
+      <div id="step3" class="step hidden"><label>Password: <input id="password" required type="password"></label></div>
+      <div style="margin-top:8px">
+        <button id="backBtn" type="button" class="hidden">Back</button>
+        <button id="nextBtn" type="button">Next</button>
+      </div>
+    </form>
+    <div id="summary" class="summary hidden"></div>
+  </div>
+
+  <div class="section" id="task4">
+    <h2>4. Theme Switcher</h2>
+    <div class="row">
+      <button data-theme="light" class="themeBtn">Light</button>
+      <button data-theme="dark" class="themeBtn">Dark</button>
+      <button data-theme="blue" class="themeBtn">Blue</button>
+    </div>
+    <p>Current data-theme on &lt;body&gt;: <code id="currentTheme"></code></p>
+  </div>
+
+  <div class="section" id="task5">
+    <h2>5. Image Gallery with Modal</h2>
+    <div id="gallery" class="row"></div>
+    <div id="modalBackdrop" class="modal-backdrop hidden"><div class="modal" id="modalContent"></div></div>
+  </div>
+
+  <div class="section" id="task6">
+    <h2>6. Real-Time Table Filter</h2>
+    <input id="searchBox" placeholder="Search students...">
+    <table class="table" id="studentsTable">
+      <thead><tr><th>Name</th><th>Branch</th><th>CGPA</th></tr></thead>
+      <tbody>
+        <tr><td>Aisha</td><td>CSE</td><td>9.1</td></tr>
+        <tr><td>Rohan</td><td>ECE</td><td>8.4</td></tr>
+        <tr><td>Meera</td><td>ME</td><td>7.2</td></tr>
+        <tr><td>Sandeep</td><td>CSE</td><td>8.8</td></tr>
+      </tbody>
+    </table>
+    <div id="noResults" class="no-results hidden">No results found</div>
+  </div>
+
+  <div class="section" id="task7">
+    <h2>7. Mouse Path & Coordinates Logger</h2>
+    <div class="box" id="trackBox"></div>
+    <div>clientX: <span id="cx">-</span> clientY: <span id="cy">-</span></div>
+  </div>
+
+  <div class="section" id="task8">
+    <h2>8. Custom Dropdown</h2>
+    <div class="dropdown" id="customDropdown">
+      <button id="ddButton">Choose option</button>
+      <div class="options hidden" id="ddOptions">
+        <div class="option">Option A</div>
+        <div class="option">Option B</div>
+        <div class="option">Option C</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="task9">
+    <h2>9. Form Submit Blocker with Live Errors</h2>
+    <form id="blockForm" novalidate>
+      <div><label>Name: <input id="fName" required></label><div class="err" id="errName"></div></div>
+      <div><label>Email: <input id="fEmail" required></label><div class="err" id="errEmail"></div></div>
+      <div><label>Password: <input id="fPass" type="password" required></label><div class="err" id="errPass"></div></div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="formMessage" class="summary hidden"></div>
+  </div>
+
+</div>
+
+<script src="task1.js"></script>
+<script src="task2.js"></script>
+<script src="task3.js"></script>
+<script src="task4.js"></script>
+<script src="task5.js"></script>
+<script src="task6.js"></script>
+<script src="task7.js"></script>
+<script src="task8.js"></script>
+<script src="task9.js"></script>
+</body>
+</html>
