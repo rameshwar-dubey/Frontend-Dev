@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ramesh",
+      "email": "ramesh@example.com",
+      "password": "hashed1"
+    },
+    {
+      "id": 2,
+      "name": "Neha",
+      "email": "neha@example.com",
+      "password": "hashed2"
+    },
+    {
+      "id": 3,
+      "name": "Aman",
+      "email": "aman@example.com",
+      "password": "hashed3"
+    },
+    {
+      "id": 4,
+      "name": "Tara",
+      "email": "tara@example.com",
+      "password": "hashed4"
+    },
+    {
+      "id": 5,
+      "name": "Kabir",
+      "email": "kabir@example.com",
+      "password": "hashed5"
+    }
+  ]
+}

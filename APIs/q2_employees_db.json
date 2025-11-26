@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Asha Kapoor",
+      "status": "active",
+      "role": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Rohan Mehta",
+      "status": "inactive",
+      "role": "Designer"
+    },
+    {
+      "id": 3,
+      "name": "Priya Sharma",
+      "status": "active",
+      "role": "QA"
+    },
+    {
+      "id": 4,
+      "name": "Sandeep Gupta",
+      "status": "active",
+      "role": "DevOps"
+    },
+    {
+      "id": 5,
+      "name": "Neha Verma",
+      "status": "inactive",
+      "role": "Product Manager"
+    }
+  ]
+}

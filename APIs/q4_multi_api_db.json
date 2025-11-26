@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ankit",
+      "email": "ankit@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Maya",
+      "email": "maya@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Vikram",
+      "email": "vikram@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Sonia",
+      "email": "sonia@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Arjun",
+      "email": "arjun@example.com"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "total": 250.5
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "total": 99.99
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "total": 450.0
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "total": 15.0
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "total": 60.0
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "price": 19.99
+    },
+    {
+      "id": 2,
+      "name": "Keyboard",
+      "price": 29.99
+    },
+    {
+      "id": 3,
+      "name": "Monitor 24\"",
+      "price": 149.99
+    },
+    {
+      "id": 4,
+      "name": "USB-C Cable",
+      "price": 9.99
+    },
+    {
+      "id": 5,
+      "name": "Webcam HD",
+      "price": 49.99
+    }
+  ]
+}
